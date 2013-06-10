@@ -1,0 +1,32 @@
+<style type="text/css">
+.tishi {
+	font-size: 40px;
+	font-family: "Comic Sans MS", cursive;
+	font-weight: bold;
+	color: #063;
+}
+.confirm {
+	font-family: "Comic Sans MS", cursive;
+	color: #363;
+	font-size: 18px;
+}
+.info {
+	color: #060;
+	font-family: "Comic Sans MS", cursive;
+	font-size: 22px;
+}
+.navig {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 25px;
+	color: #099;
+}
+.e {
+	font-size: 30px;
+	color: #F00;
+}
+a.back:link {
+	font-size: 18px;
+	color: #963;
+	text-decoration:none;
+}
+</style>

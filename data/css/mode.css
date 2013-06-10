@@ -1,0 +1,160 @@
+<style type="text/css">
+.logo {	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	color: #09C;
+}
+.logo1 {	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 24px;
+	color: #FFFFFF;
+	font-style: italic;
+}
+.title1 {	color: #FFF;
+	font-style: italic;
+}
+
+
+a.logo1:link {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 24px;
+	color: #FFF;
+	font-style: italic;
+	text-decoration:none; 
+	}
+a.title1:link{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 15px;
+	color: #FFFFFF;
+	font-style: italic;
+	text-decoration:none;		
+}	
+a.logo1:visited {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 24px;
+	color: #FFFFFF;
+	font-style: italic;
+	text-decoration:none; 
+	}
+a.title1:visited{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 15px;
+	color: #FFFFFF;
+	font-style: italic;
+	text-decoration:none;
+	}	
+
+a.logo1:hover {
+      font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 24px;
+	color:#FF6;
+	font-style: italic;
+	text-decoration:none; 
+}
+
+a.title1:hover{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 15px;
+	color: #FF6;
+	font-style: italic;
+	text-decoration:none;	
+	}
+
+a.logo1:active {
+      font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 24px;
+	color: #FFF;
+	font-style: italic;
+	text-decoration:none; 
+}
+
+a.title1:active{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 15px;
+	color: #FFF;
+	font-style: italic;
+	text-decoration:none;		
+}
+
+
+.title2 {
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	text-align: justify;
+	color: #FFF;
+	font-weight: bold;
+}
+
+
+<!--
+/* 
+Credits: BitRepository.com
+*/
+
+html, body {
+background-color: white; 
+
+color: #2B3956;
+font-family: Verdana, Arial, Sans-Serif;
+font-size: 11px;
+text-align: left;
+}
+/* Pagination DIV */
+#pg
+{
+width: 400px;
+background-color: #FFFFFF;
+
+text-align: center;
+font-size: 10px;
+
+margin-bottom: 5px;
+
+padding: 10px;
+}
+
+/* Pagination Link */
+
+#pg a {
+font-size: 10px;
+text-decoration: none;
+color: #000000;
+border: 1px solid #83A0C1;
+padding: 3px;
+-moz-border-radius: 3px;
+}
+
+#pg a:hover {
+font-size: 10px;
+text-decoration: none;
+color: #000000;
+border: 1px solid #000000;
+background-color: white;
+padding: 3px;
+-moz-border-radius: 3px;
+}
+
+/* Pagination Current Page */
+
+#pg a.current {
+font-size: 10px;
+text-decoration: none;
+font-weight: bold;
+color: white;
+border: 1px solid #0D62C3;
+background-color: #0D62C3;
+padding: 3px;
+-moz-border-radius: 3px;
+}
+
+/* Pagination Disabled Page */
+
+#pg span.disabled {
+font-size: 10px;
+text-decoration: none;
+color: #C6C7C7;
+border: 1px solid #C6C7C7;
+background-color: white;
+padding: 3px;
+-moz-border-radius: 3px;
+}
+</style>

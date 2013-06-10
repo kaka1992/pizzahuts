@@ -1,0 +1,34 @@
+        <td width="607"><table width="101%" height="310" border="0" cellspacing="5">
+        	<!--{$temp=0}-->
+        	<!--{for ($i=1; $i<4; $i++)}-->
+            	<!--{echo '<tr>';}-->
+            	<!--{for ($j=1; $j<4; $j++)}-->
+                	<!--{echo '<td>';}-->
+                    <!--{if ($temp < $data[1])}-->
+                        <!--{echo '<table width="184" border="0" align="center" cellspacing="5">';}-->
+                        <!--{echo '<tr>';}-->
+                          <!--{echo '<td width="164"><a href="index.php?c=description&a=run&id='.$data[0][$temp]["id"].'&u='.$username.'"><img src="'.$data[0][$temp]["pic_url"].'" width="172" height="121" alt="sweat" /></a></td>';}-->
+                        <!--{echo '</tr>';}-->
+                        <!--{echo '<tr>';}-->
+                          <!--{echo '<td><table width="139" border="0" cellspacing="5">';}-->
+                            <!--{echo '<tr>';}-->
+                              <!--{echo '<td width="95" height="21">'.$data[0][$temp]["name"].'</td>';}-->
+                              <!--{echo '<td width="25">price:'.$data[0][$temp][price]*$data[0][$temp]["discount"].'</td>';}-->
+                            <!--{echo '</tr>';}-->
+                          <!--{echo '</table></td>';}-->
+                        <!--{echo '</tr>';}-->
+                        <!--{echo '<tr align="right">';}-->
+                          <!--{echo '<td><input type="button" onclick="add('}--><!--{echo $data[0][$temp]['id'].",'".$data[0][$temp]['name']."',1,".$data[0][$temp]['price'].');" value="order"/></td>';}-->
+                        <!--{echo '</tr>';}-->
+                      <!--{echo '</table>';}-->
+                      <!--{else}-->
+                      <!--{echo '<td>&nbsp;&nbsp;</td>';}-->
+                      <!--{/if}--> 
+                      <!--{$temp = $temp + 1;}-->
+                <!--{echo '</td>';}-->
+				<!--{/for}-->
+                <!--{echo '</tr>';}-->
+			<!--{/for}-->
+            <!--{$temp=0;}-->
+        </table></td>
+        <td width="205">&nbsp;</td>

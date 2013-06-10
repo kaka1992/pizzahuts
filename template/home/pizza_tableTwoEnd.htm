@@ -1,0 +1,34 @@
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+
+<div id="pg">
+<table align="center" width="840">
+<tr>
+<td align="centert">
+<!--{if ($number == 1||$datanum==0)}-->
+<!--{echo '<span class="disabled">&laquo; Previous</span>&nbsp;&nbsp;';}-->
+<!--{else}-->
+<!--{echo '&laquo;<a href="index.php?c=index&a=run&number='.($number-1).'&type='.$type.'&fname='.$fname.'">'.' Previous&nbsp;&nbsp;';}-->
+<!--{/if}--> 
+<!--{for ($i=1; $i<=$datanum; $i++)}-->
+
+<!--{echo '&nbsp;&nbsp;<a ';}-->
+<!--{if ($number == $i)}-->
+<!--{echo 'class="current" ';}-->
+<!--{/if}-->
+<!--{echo 'href="index.php?c=index&a=run&number='.$i.'&type='.$type.'&fname='.$fname.'">'.$i.'</a>';}-->
+
+<!--{/for}-->
+<!--{if ($number == $datanum || $datanum==0)}-->
+<!--{echo '&nbsp;&nbsp;<span class="disabled">Next &raquo;</span>';}-->
+<!--{else}-->
+<!--{echo '&nbsp;&nbsp;<a href="index.php?c=index&a=run&number='.($number+1).'&type='.$type.'&fname='.$fname.'">Next &raquo;</a>';}-->
+<!--{/if}--> 
+</td>
+</tr>
+</table>                
+
+</div>
